@@ -2483,10 +2483,9 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Pi-Hole",
-      "env": [
-				{
-					"DNSMASQ_USER": "root",
-				},
+     			"env": [
+				"DNSMASQ_USER": "root"
+			],
 			"type": 1,
 			"volumes": [
 				{
